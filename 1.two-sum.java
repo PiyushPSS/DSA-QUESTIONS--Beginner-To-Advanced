@@ -11,6 +11,7 @@ class Solution {
         return bruteforce(nums, target);
     }
 
+    // Bruteforce method.
     public int[] bruteforce(int[] nums, int target) {
         int[] result = new int[2];
 
@@ -24,5 +25,10 @@ class Solution {
         }
         return result;
     }
+
+    // Using Hashmaps
+    // public int[] hashmapsAlgo(int[] nums, int[] target) {
+
+    // }
 }
 // @lc code=end
